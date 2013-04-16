@@ -1,0 +1,29 @@
+<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<BitmapImage UriSource="..\Resources\Icons\application.png" x:Key="default_executable"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\folder.png" x:Key="default_category"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\rss.png" x:Key="default_rss"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\flashdrive.png" x:Key="default_flash_drive"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\cdrom.png" x:Key="default_cdrom"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\application.png" x:Key="default_window"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\multimedia.png" x:Key="default_multimedia"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\folder.png" x:Key="default_folder"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\favorites.png" x:Key="default_favorites"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\eject.png" x:Key="default_eject"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\network.png" x:Key="default_network"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\start.png" x:Key="default_start"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\tool.png" x:Key="default_configure"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\info.png" x:Key="default_info"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\alert.png" x:Key="default_alert"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\stop.png" x:Key="default_error"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\prompt.png" x:Key="default_prompt"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\image.png" x:Key="default_image"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\desktop.png" x:Key="default_desktop"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\box_minimize.png" x:Key="box_minimze"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\box_minimize.png" x:Key="box_maximize"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\box_pin.png" x:Key="box_pin"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\lock.png" x:Key="default-lock"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Icons\box_minimize.png" x:Key="box_terminate"></BitmapImage>
+	<BitmapImage UriSource="..\Resources\Images\gizmo_logo.png" x:Key="default_logo"></BitmapImage>	
+</ResourceDictionary>

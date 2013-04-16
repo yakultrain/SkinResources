@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sifconv="clr-namespace:SkinInterfaces.Converters;assembly=DataInterfaces">
+    <sifconv:CountToVisibilityConverter x:Key="CountToVisibilityConverter"/>
+    <sifconv:NullVisibilityConverter x:Key="NullToVisibilityConverter"/>
+    <sifconv:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    <sifconv:NullToBoolConverter x:Key="NullToBoolConverter"/>
+    <sifconv:DateTimeToDateConverter x:Key="ShortDateConverter"/>
+    <sifconv:ImageByteToBitmapSourceConverter x:Key="BytesToImageSourceConverter"/>
+    <sifconv:BytesConverter x:Key="BytesConverter"/>
+    <sifconv:ToLowerConverter x:Key="ToLowerConverter"/>
+    <sifconv:GameServerNameConverter x:Key="GameServerNameConverter"/>
+    <sifconv:FallBackConverter x:Shared="True" x:Key="FallBackConverter"/>
+    <sifconv:CurrencyToStringConverter x:Key="CurrencyStringConverter"/>
+    <sifconv:UserTimeToStringConverter x:Key="UserTimeStringConverter"/>
+    <sifconv:NumberToRoundedConverter x:Key="NumberRoundConverter"/>
+    <sifconv:PopupHorizontalOffsetConverter x:Key="PopupHorizontalOffsetConverter"/>
+    <sifconv:FlagsEnumValueConverter x:Key="FlagsEnumConverter"/>
+    <sifconv:FlagsEnumValueVisibilityConverter x:Key="FlagsEnumVisibilityConverter"/>
+    <sifconv:CountToBoolConverter x:Key="CountToBoolConverter"/>
+    <sifconv:ToUpperConverter x:Key="ToUpperConverter"/>
+    <sifconv:HiddenToOpacityConverter x:Key="HiddentToOpacityConverter"/>
+    <sifconv:MinDateToVisibilityConverter x:Key="MinDateToVisibilityConverter"/>
+    <sifconv:RevertBoolConverter x:Key="RevertBoolConverter"/>
+    <sifconv:EmptyStringToVisibilityConvert x:Key="EmptyStringToVisibilityConvert"/>
+</ResourceDictionary>
