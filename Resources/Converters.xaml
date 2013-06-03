@@ -24,4 +24,5 @@
     <sifconv:MinDateToVisibilityConverter x:Key="MinDateToVisibilityConverter"/>
     <sifconv:RevertBoolConverter x:Key="RevertBoolConverter"/>
     <sifconv:EmptyStringToVisibilityConvert x:Key="EmptyStringToVisibilityConvert"/>
+    <sifconv:StringToEnvrionmentConverter x:Key="StringToEnvrionmentConverter"/>
 </ResourceDictionary>
